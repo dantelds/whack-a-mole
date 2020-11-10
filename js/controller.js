@@ -1,5 +1,5 @@
 let controller = {
-    start:function(){
+    drawaCircle: function(){
         var width = window.innerWidth;
         var height = window.innerHeight;
         
@@ -25,6 +25,9 @@ let controller = {
         
         // add the layer to the stage
         stage.add(layer);
+    },
+    start:function(){
+       this.drawaCircle();
     }
 
 }
