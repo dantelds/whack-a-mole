@@ -2,7 +2,6 @@ let controller = {
     drawaCircle: function(){
         var width = window.innerWidth;
         var height = window.innerHeight;
-        
         var stage = new Konva.Stage({
         container: 'container',
         width: width,
@@ -31,4 +30,4 @@ let controller = {
     }
 
 }
-window.addEventListener("DOMContentLoaded", controller.start);
+window.addEventListener("DOMContentLoaded", controller.start.bind(controller));
