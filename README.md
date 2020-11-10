@@ -1,0 +1,1 @@
+This is a test to create a simple game using canvas library and simple javascript
